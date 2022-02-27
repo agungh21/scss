@@ -1,0 +1,15 @@
+@use "sub_modules/mixin" as m;
+
+.container {
+  @include m.flex-box(row-reverse, space-around);
+  width: 600px;
+  height: 400px;
+  background-color: #cccccc;
+  .box {
+    width: 60px;
+    height: 60px;
+    background-color: #bada66;
+    text-align: center;
+    line-height: 60px;
+  }
+}

@@ -1,0 +1,13 @@
+@use "sub_modules/mixin" as m;
+
+.footer ul {
+  @include m.inline-list();
+  li {
+    background-color: yellow;
+    padding: 0.4em;
+    a {
+      color: black;
+      text-decoration: none;
+    }
+  }
+}

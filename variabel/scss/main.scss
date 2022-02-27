@@ -1,0 +1,35 @@
+// $color-2: #f1cc7f;
+// $color-3: #333;
+// $color-1: #423422;
+
+// body {
+//   $color-1: #f4f1da !global;
+//   background-color: $color-1;
+// }
+
+// h1 {
+//   color: $color-1;
+// }
+
+// p {
+//   color: $color-3;
+// }
+
+// map
+$alert: (
+  "danger": red,
+  "success": green,
+  "warning": orange,
+);
+
+body {
+  background-color: map-get($map: $alert, $key: warning);
+}
+
+h1 {
+  color: map-get($map: $alert, $key: success);
+}
+
+p {
+  color: map-get($map: $alert, $key: danger);
+}

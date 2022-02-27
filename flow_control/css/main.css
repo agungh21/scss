@@ -1,0 +1,136 @@
+body {
+  min-height: 1000px;
+}
+
+.square-profile {
+  width: 200px;
+  height: 200px;
+  border: 4px solid white;
+  -webkit-box-shadow: 1px 1px 3px rgba(51, 51, 51, 0.3);
+          box-shadow: 1px 1px 3px rgba(51, 51, 51, 0.3);
+}
+
+.circle-profile {
+  width: 80px;
+  height: 80px;
+  border: 4px solid white;
+  -webkit-box-shadow: 1px 1px 3px rgba(51, 51, 51, 0.3);
+          box-shadow: 1px 1px 3px rgba(51, 51, 51, 0.3);
+  border-radius: 50%;
+}
+
+.nav {
+  background-color: #eaeaea;
+  color: #333;
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1em;
+  border-left-color: black;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1em;
+  border-top-color: black;
+}
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1em;
+  border-bottom-color: black;
+}
+
+.triangle-left {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1em;
+  border-top-color: black;
+}
+
+.gradient {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gradient li:nth-child(1) {
+  padding: 4x;
+  background-color: #0f0fff;
+}
+
+.gradient li:nth-child(2) {
+  padding: 4x;
+  background-color: #1f1fff;
+}
+
+.gradient li:nth-child(3) {
+  padding: 4x;
+  background-color: #2e2eff;
+}
+
+.gradient li:nth-child(4) {
+  padding: 4x;
+  background-color: #3d3dff;
+}
+
+.gradient li:nth-child(5) {
+  padding: 4x;
+  background-color: #4d4dff;
+}
+
+.gradient li:nth-child(6) {
+  padding: 4x;
+  background-color: #5c5cff;
+}
+
+.gradient li:nth-child(7) {
+  padding: 4x;
+  background-color: #6b6bff;
+}
+
+.gradient li:nth-child(8) {
+  padding: 4x;
+  background-color: #7a7aff;
+}
+
+.gradient li:nth-child(9) {
+  padding: 4x;
+  background-color: #8a8aff;
+}
+
+.gradient li:nth-child(10) {
+  padding: 4x;
+  background-color: #9999ff;
+}
+
+.search {
+  font-size: 2em;
+  font-family: arial;
+  font-weight: bold;
+}
+
+.search .google {
+  color: #ff0000;
+}
+
+.search .yahoo {
+  color: #ffbf34;
+}
+/*# sourceMappingURL=main.css.map */

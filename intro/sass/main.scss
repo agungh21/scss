@@ -1,0 +1,11 @@
+$color: salmon;
+header {
+  background-color: $color;
+  h1 {
+    font-size: 3em;
+  }
+
+  p {
+    color: $color;
+  }
+}
